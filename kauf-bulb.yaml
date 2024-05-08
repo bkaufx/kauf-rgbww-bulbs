@@ -21,7 +21,7 @@ substitutions:
 
   # https://esphome.io/components/esphome.html#esphome-creators-project
   project_name: Kauf.RGBWW
-  project_ver_num: "1.93"
+  project_ver_num: "1.931b1"
   project_ver_let: y
 
   sub_on_turn_on:  script_do_nothing
@@ -65,11 +65,11 @@ external_components:
   - source:
       type: git
       url: https://github.com/KaufHA/common
-      ref: v2024.04.16
+      ref: v2024.05.08
     refresh: never
   - source:
       type: git
-      url: https://github.com/KaufHA/kauf-rgbww-bulbs
+      url: https://github.com/bkaufx/kauf-rgbww-bulbs
     refresh: always
 
 
